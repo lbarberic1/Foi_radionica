@@ -1,4 +1,5 @@
-﻿using DebuggingBeginner.Data;
+﻿using ConsoleTables;
+using DebuggingBeginner.Data;
 using DebuggingBeginner.Helpers;
 using DebuggingBeginner.Models;
 using System;
@@ -141,7 +142,6 @@ namespace DebuggingBeginner // Note: actual namespace depends on the project nam
             {
                 throw;
             }
-
         }
 
         private static BankAccount FindUser(int id)
