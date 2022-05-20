@@ -29,7 +29,8 @@ namespace DebuggingBeginner.Models
         public void Withdraw(double amount)
         {
             var calculator = new CalculateBalance.CalculateBalance();
-            Balance = calculator.Withdraw(Balance, amount);
+            var balance = calculator.Withdraw(Balance, amount);
+            Balance = balance;
             GetCurrentBalance();
         }
     }

@@ -99,7 +99,7 @@ namespace DebuggingBeginner // Note: actual namespace depends on the project nam
 
         private static void Withdrawal(IOperations bankAccount)
         {
-            Console.WriteLine("Enter the deposit amount");
+            Console.WriteLine("Enter the withdrawal amount");
             var depositAmount = int.Parse(Console.ReadLine());
             bankAccount.Withdraw(depositAmount);
         }
